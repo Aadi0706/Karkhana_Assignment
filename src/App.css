@@ -35,6 +35,21 @@ body {
   cursor: pointer;
 }
 
+.category-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
 .product-container {
   display: flex;
   flex-wrap: wrap;

@@ -18,6 +18,13 @@ const ProductPage = ({ onAddToCart }) => {
         <input type="text" placeholder="Search all products here..." />
         <button>Search</button>
       </div>
+      <div className="category-buttons">
+        <button className="category-button">Ice Coffee</button>
+        <button className="category-button">Hot Coffee</button>
+        <button className="category-button">Artisan Tea</button>
+        <button className="category-button">Ice Mojito</button>
+        <button className="category-button">Beverage</button>
+      </div>
       <div className="product-container">
         {products.map((product) => (
           <div className="product-card" key={product.id}>

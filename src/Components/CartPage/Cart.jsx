@@ -4,6 +4,10 @@ import './Cart.css';
 const Cart = ({ items, onRemoveFromCart, totalAmount }) => {
   return (
     <div className="cart-container">
+      <div className="cart-header">
+        <span>Jimmy Sullivan</span>
+        <button>Edit</button>
+      </div>
       <h2>Cart</h2>
       {items.length === 0 ? (
         <p>Your cart is empty.</p>
