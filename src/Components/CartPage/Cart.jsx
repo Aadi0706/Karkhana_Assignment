@@ -37,7 +37,7 @@ const Cart = ({ items, onRemoveFromCart, totalAmount }) => {
         <h3>Total: ${(totalAmount - totalAmount * 0.1 + 4).toFixed(2)}</h3>
       </div>
       <input type="text" className="voucher-code" placeholder="Add Voucher Code" />
-      <button className="apply-voucher-button">Apply Voucher</button>
+      {/* <button className="apply-voucher-button">Apply Voucher</button> */}
       <div className="cart-actions">
         <button className="print-receipt-button">Print Receipt</button>
       </div>

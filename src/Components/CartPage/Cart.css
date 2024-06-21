@@ -61,11 +61,12 @@
   }
   
   .voucher-code {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     font-size: 16px;
+    border: 3px dashed #ccc;
   }
   
   .apply-voucher-button, .print-receipt-button {
@@ -75,6 +76,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    width: 100%;
   }
   
   .extra-options {

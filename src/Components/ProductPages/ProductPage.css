@@ -1,12 +1,4 @@
 
-
- /* body{
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-} */
-
 .product-list {
     flex: 1;
     padding: 20px;
@@ -43,20 +35,101 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
   }
   
-  .category-button {
-    border: 1px solid red;
+  .category-button1 {
+    /* border: 1px solid red; */
+    border: none;
+    background-color: white;
     padding: 10px 20px;
     font-size: 14px;
-    border: none;
     cursor: pointer;
-    button:hover{
-        background-color:goldenrod;
-    };
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
   }
-  
+  .category-button1:hover {
+    background-color: rgb(75, 177, 240);
+    color: white;
+}
+  .category-button2 {
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+  .category-button2:hover {
+    background-color: rgb(75, 177, 240);
+    color: white;
+}
+
+.category-button3 {
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+  .category-button3:hover {
+    background-color: rgb(75, 177, 240);
+    color: white;
+}
+
+.category-button4 {
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+  .category-button4:hover {
+    background-color: rgb(75, 177, 240);
+    color: white;
+}
+
+.category-button5 {
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+   
+  }
+  .category-button5:hover {
+    background-color: rgb(75, 177, 240);
+    color: white;
+}
   .product-container {
     display: flex;
     flex-wrap: wrap;
@@ -81,4 +154,11 @@
     font-weight: bold;
     text-align: left;
     margin-left: 10px;
+  }
+
+  .addtoCart{
+    position: relative;
+    left: 10%;
+    bottom: 12%;
+
   }

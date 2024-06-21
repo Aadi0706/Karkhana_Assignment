@@ -23,11 +23,11 @@ const ProductPage = ({ onAddToCart }) => {
         <button>Search</button>
       </div>
       <div className="category-buttons">
-        <button className="category-button">Ice Coffee</button>
-        <button className="category-button">Hot Coffee</button>
-        <button className="category-button">Artisan Tea</button>
-        <button className="category-button">Ice Mojito</button>
-        <button className="category-button">Beverage</button>
+        <button className="category-button1">Ice Coffee</button>
+        <button className="category-button2">Hot Coffee</button>
+        <button className="category-button3">Artisan Tea</button>
+        <button className="category-button4">Ice Mojito</button>
+        <button className="category-button5">Beverage</button>
       </div>
       <div className="product-container">
         {products.map((product) => (
@@ -35,7 +35,7 @@ const ProductPage = ({ onAddToCart }) => {
             <img src={process.env.PUBLIC_URL + `./Origimber_image.png?text=${product.name}`} alt={product.name} />
             <h3>{product.name}</h3>
             <p className="product-price">${product.price.toFixed(2)}</p>
-            <button onClick={() => onAddToCart(product)}>Add to Cart</button>
+            <button className="addtoCart"onClick={() => onAddToCart(product)}>Add to Cart</button>
           </div>
         ))}
       </div>
