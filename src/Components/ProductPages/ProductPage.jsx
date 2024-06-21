@@ -10,6 +10,9 @@ const products = [
   { id: 5, name: 'DUO-PACK: GIMBER...', price: 52.80 },
   { id: 6, name: 'S-SML GIMBER 50...', price: 20.25 },
   { id: 7, name: 'Shop COOK & GO...', price: 32.50 },
+  { id: 8, name: 'ORI GIMBER 700ml', price: 24.95 },
+  { id: 9, name: 'GIMBER N°2 700 ml', price: 25.85 },
+  { id: 10, name: 'SML GIMBER 500 ml', price: 20.45 },
 ];
 
 const ProductPage = ({ onAddToCart }) => {
@@ -31,7 +34,7 @@ const ProductPage = ({ onAddToCart }) => {
           <div className="product-card" key={product.id}>
             <img src={process.env.PUBLIC_URL + `./Origimber_image.png?text=${product.name}`} alt={product.name} />
             <h3>{product.name}</h3>
-            <p>${product.price.toFixed(2)}</p>
+            <p className="product-price">${product.price.toFixed(2)}</p>
             <button onClick={() => onAddToCart(product)}>Add to Cart</button>
           </div>
         ))}
