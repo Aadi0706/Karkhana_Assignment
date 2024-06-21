@@ -3,6 +3,11 @@
     background-color: white;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
   }
   
   .cart-header {
@@ -28,10 +33,63 @@
   .cart-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
+  }
+  
+  .cart-item span {
+    flex: 1;
+  }
+  
+  .cart-item button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #f16b26;
+    color: white;
+    cursor: pointer;
   }
   
   .cart-total {
     margin-top: 20px;
+  }
+  
+  .cart-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .voucher-code {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .apply-voucher-button, .print-receipt-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f16b26;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .extra-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .extra-option {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .extra-option label {
+    flex: 1;
   }
   

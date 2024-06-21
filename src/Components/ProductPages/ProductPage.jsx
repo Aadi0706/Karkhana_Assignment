@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProductPage.css';
 
+
 const products = [
   { id: 1, name: 'ORI GIMBER 700ml', price: 24.95 },
   { id: 2, name: 'GIMBER N°2 700 ml', price: 25.85 },
@@ -28,7 +29,7 @@ const ProductPage = ({ onAddToCart }) => {
       <div className="product-container">
         {products.map((product) => (
           <div className="product-card" key={product.id}>
-            <img src={`https://via.placeholder.com/150?text=${product.name}`} alt={product.name} />
+            <img src={process.env.PUBLIC_URL + `./Origimber_image.png?text=${product.name}`} alt={product.name} />
             <h3>{product.name}</h3>
             <p>${product.price.toFixed(2)}</p>
             <button onClick={() => onAddToCart(product)}>Add to Cart</button>
