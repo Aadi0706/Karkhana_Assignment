@@ -23,7 +23,7 @@ const ProductPage = ({ onAddToCart }) => {
         <button>Search</button>
       </div>
       <div className="category-buttons">
-        <button className="category-button1">Ice Coffee</button>
+        <button className="category-button1"><img src="./coffee-cup.png" className="category-1icon"></img>Ice Coffee</button>
         <button className="category-button2">Hot Coffee</button>
         <button className="category-button3">Artisan Tea</button>
         <button className="category-button4">Ice Mojito</button>
